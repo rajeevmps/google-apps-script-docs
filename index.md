@@ -1,15 +1,17 @@
 # Google Apps Script Documentation — Local Offline Copy
 
-A structured, local markdown mirror of the official Google Apps Script documentation (`developers.google.com/apps-script/`) and the related Workspace Add-ons docs (`developers.google.com/workspace/add-ons/`), built for use as coding context in future projects. Content was fetched and converted section by section, so fidelity is generally high, but this is a point-in-time snapshot (fetched August 2026) — for anything version-sensitive or rapidly changing (release notes, quotas, sunset schedules), cross-check the live docs.
+A structured, local markdown mirror of the official Google Apps Script documentation (`developers.google.com/apps-script/`) and the related Workspace Add-ons docs (`developers.google.com/workspace/add-ons/`, plus a handful of Meet SDK pages from `developers.google.com/meet/add-ons/`), built for use as coding context in future projects. Content was fetched and converted section by section, so fidelity is generally high, but this is a point-in-time snapshot (fetched August 2026) — for anything version-sensitive or rapidly changing (release notes, quotas, sunset schedules), cross-check the live docs.
+
+**968 files** across the four folders below.
 
 ## Folders
 
-| Folder | What's in it |
-|---|---|
-| [`guides/`](guides/README.md) | Conceptual guides: getting started, triggers, authorization/scopes, services, UI, HTML Service, manifest reference, runtime/migration, REST API how-tos, VBA macro converter, quickstarts, support/meta pages |
-| [`reference/`](reference/README.md) | Full class/method/enum-level API reference for every built-in service (Spreadsheet, Document, Drive, Gmail, Calendar, Forms, Slides, Card Service, Base, Script, Properties, Cache, Lock, Utilities, HTML/Content/XML Service, Charts, JDBC, Maps, and more), plus the Apps Script REST API |
-| [`advanced-services/`](advanced-services/README.md) | How to enable and use "Advanced Google Services" (BigQuery, Admin SDK, YouTube, Analytics, etc.) — thin wrappers around external Google Cloud/Workspace REST APIs, not duplicated here in full |
-| [`workspace-add-ons/`](workspace-add-ons/README.md) | Building installable Workspace Add-ons: Gmail, Calendar, Drive, Editor (Docs/Sheets/Slides/Forms), Chat apps, and Meet add-ons, plus publishing |
+| Folder | Files | What's in it |
+|---|---|---|
+| [`guides/`](guides/README.md) | 95 | Conceptual guides: getting started, triggers, authorization/scopes, services, UI, HTML Service, manifest reference, runtime/migration, REST API how-tos, VBA macro converter, quickstarts, support/meta pages |
+| [`reference/`](reference/README.md) | 740 | Full class/method/enum-level API reference for every built-in service (Spreadsheet, Document, Drive, Gmail, Calendar, Forms, Slides, Card Service, Base, Script, Properties, Cache, Lock, Utilities, HTML/Content/XML Service, Charts, JDBC, Maps, and more), plus the Apps Script REST API |
+| [`advanced-services/`](advanced-services/README.md) | 30 | How to enable and use "Advanced Google Services" (BigQuery, Admin SDK, YouTube, Analytics, etc.) — thin wrappers around external Google Cloud/Workspace REST APIs, not duplicated here in full |
+| [`workspace-add-ons/`](workspace-add-ons/README.md) | 101 | Building installable Workspace Add-ons: Gmail, Calendar, Drive, Editor (Docs/Sheets/Slides/Forms), Chat apps, and Meet add-ons, plus publishing |
 
 ## Quick orientation
 
