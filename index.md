@@ -13,6 +13,8 @@ A structured, local markdown mirror of the official Google Apps Script documenta
 | [`advanced-services/`](advanced-services/README.md) | 30 | How to enable and use "Advanced Google Services" (BigQuery, Admin SDK, YouTube, Analytics, etc.) — thin wrappers around external Google Cloud/Workspace REST APIs, not duplicated here in full |
 | [`workspace-add-ons/`](workspace-add-ons/README.md) | 101 | Building installable Workspace Add-ons: Gmail, Calendar, Drive, Editor (Docs/Sheets/Slides/Forms), Chat apps, and Meet add-ons, plus publishing |
 
+Also see [`topics.md`](topics.md) — a cookbook of ready-to-adapt code snippets for common tasks (read/write a sheet, send email, create triggers, HTTP requests, web apps, locking, etc.), each linking back into `reference/`/`guides/` for full detail.
+
 ## Quick orientation
 
 - **Writing a container-bound script for Sheets/Docs/Forms/Slides?** Start with [`guides/README.md`](guides/README.md) (Getting Started, Bound to Google Workspace Documents) and the relevant service in [`reference/`](reference/README.md) (e.g. [`reference/spreadsheet/`](reference/spreadsheet/README.md)).
