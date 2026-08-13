@@ -1,0 +1,18 @@
+# Position
+
+An enumeration of legend positions within a chart.
+
+An enumeration of legend positions within a chart. To call an enum, you call its parent class, name, and property. For example, `Charts.Position.TOP`.
+
+## Methods
+
+None.
+
+## Properties
+
+| Property | Type | Description |
+|---|---|---|
+| TOP | Enum | Above the chart. |
+| RIGHT | Enum | To the right of the chart. |
+| BOTTOM | Enum | Below the chart. |
+| NONE | Enum | No legend is displayed. |

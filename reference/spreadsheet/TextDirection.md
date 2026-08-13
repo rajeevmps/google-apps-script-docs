@@ -1,0 +1,15 @@
+# TextDirection
+
+An enumerations of text directions.
+
+An enumerations of text directions.
+
+To call an enum, you call its parent class, name, and property. For example, SpreadsheetApp.TextDirection.LEFT_TO_RIGHT .
+
+## Properties
+
+| Property | Type | Description |
+|---|---|---|
+| LEFT_TO_RIGHT | Enum | Left-to-right text direction. |
+| RIGHT_TO_LEFT | Enum | Right-to-left text direction. |
+

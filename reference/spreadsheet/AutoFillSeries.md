@@ -1,0 +1,18 @@
+# AutoFillSeries
+
+An enumeration of the types of series used to calculate auto-filled values.
+
+An enumeration of the types of series used to calculate auto-filled values. The manner in which
+these series affect calculated values differs depending on the type and amount of source data.
+
+To call an enum, you call its parent class, name, and property. For example, SpreadsheetApp.AutoFillSeries.DEFAULT_SERIES .
+
+## Properties
+
+| Property | Type | Description |
+|---|---|---|
+| DEFAULT_SERIES | Enum | Default. Auto-filling with this setting results in the empty cells in the expanded range being
+filled with increments of the existing values. |
+| ALTERNATE_SERIES | Enum | Auto-filling with this setting results in the empty cells in the expanded range being filled
+with copies of the existing values. |
+

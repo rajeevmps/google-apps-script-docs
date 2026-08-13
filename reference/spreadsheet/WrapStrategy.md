@@ -1,0 +1,18 @@
+# WrapStrategy
+
+An enumeration of the strategies used to handle cell text wrapping.
+
+An enumeration of the strategies used to handle cell text wrapping.
+
+To call an enum, you call its parent class, name, and property. For example, SpreadsheetApp.WrapStrategy.WRAP .
+
+## Properties
+
+| Property | Type | Description |
+|---|---|---|
+| WRAP | Enum | Wrap lines that are longer than the cell width onto a new line. Single words that are longer
+than a line are wrapped at the character level. |
+| OVERFLOW | Enum | Overflow lines into the next cell, so long as that cell is empty. If the next cell over is
+non-empty, this behaves the same as CLIP . |
+| CLIP | Enum | Clip lines that are longer than the cell width. |
+

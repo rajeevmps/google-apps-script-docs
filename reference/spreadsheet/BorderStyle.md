@@ -1,0 +1,19 @@
+# BorderStyle
+
+Styles that can be set on a range using Range.setBorder(top, left, bottom, right, vertical, horizontal, color, style) .
+
+Styles that can be set on a range using Range.setBorder(top, left, bottom, right, vertical, horizontal, color, style) .
+
+To call an enum, you call its parent class, name, and property. For example, SpreadsheetApp.BorderStyle.DOTTED .
+
+## Properties
+
+| Property | Type | Description |
+|---|---|---|
+| DOTTED | Enum | Dotted line borders. |
+| DASHED | Enum | Dashed line borders. |
+| SOLID | Enum | Thin solid line borders. |
+| SOLID_MEDIUM | Enum | Medium solid line borders. |
+| SOLID_THICK | Enum | Thick solid line borders. |
+| DOUBLE | Enum | Two solid line borders. |
+

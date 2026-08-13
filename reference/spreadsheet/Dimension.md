@@ -1,0 +1,15 @@
+# Dimension
+
+An enumeration of possible directions along which data can be stored in a spreadsheet.
+
+An enumeration of possible directions along which data can be stored in a spreadsheet.
+
+To call an enum, you call its parent class, name, and property. For example, SpreadsheetApp.Dimension.COLUMNS .
+
+## Properties
+
+| Property | Type | Description |
+|---|---|---|
+| COLUMNS | Enum | The column (vertical) dimension. |
+| ROWS | Enum | The row (horizontal) dimension. |
+

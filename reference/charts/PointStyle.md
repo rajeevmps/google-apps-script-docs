@@ -1,0 +1,19 @@
+# PointStyle
+
+An enumeration of the styles of points in a line.
+
+An enumeration of the styles of points in a line. To call an enum, you call its parent class, name, and property. For example, `Charts.PointStyle.MEDIUM`.
+
+## Methods
+
+None.
+
+## Properties
+
+| Property | Type | Description |
+|---|---|---|
+| NONE | Enum | Do not display line points. |
+| TINY | Enum | Use tiny line points. |
+| MEDIUM | Enum | Use medium sized line points. |
+| LARGE | Enum | Use large sized line points. |
+| HUGE | Enum | Use largest sized line points. |

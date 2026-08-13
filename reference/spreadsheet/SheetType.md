@@ -1,0 +1,16 @@
+# SheetType
+
+The different types of sheets that can exist in a spreadsheet.
+
+The different types of sheets that can exist in a spreadsheet.
+
+To call an enum, you call its parent class, name, and property. For example, SpreadsheetApp.SheetType.GRID .
+
+## Properties
+
+| Property | Type | Description |
+|---|---|---|
+| GRID | Enum | A sheet containing a grid. This is the default type. |
+| OBJECT | Enum | A sheet containing a single embedded object such as an Embedded Chart . |
+| DATASOURCE | Enum | A sheet containing a Data Source . |
+
